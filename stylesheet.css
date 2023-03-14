@@ -1,0 +1,32 @@
+body {
+font-size: 24px;
+}
+h1 {
+/* task1: Use a CSS selector to apply style(s) to at least one HTML tag. */
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.rapper {
+/* task 2: Create at least one class, apply it to at least two elements, and style it. */
+/* task 7: Change at least two box model properties of any tag, class, or id. */
+background: LimeGreen;
+margin: 20px;
+border: 15px solid black;
+padding: 40px;
+}
+.salmon {
+color: salmon;
+}
+
+/* task 6: Use a CSS selector to change the color of <a> when you hover the cursor over it. */
+a:hover {
+        background-color: yellow;
+	  color: red;
+        transition: 0.2s;
+      }
+
+#myid {
+/* task 3: Create at least one id, apply it to an element, and style it. */
+    font-family: Arial, sans-serif;
+    color: black;
+    }
